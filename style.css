@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+body
+{    
+    margin: auto; /*auto, browser calculates margins */
+
+    
+    text-align: center;
+    margin: 275px;
+    font-family: 'Poppins';
+}
+
+
+.second
+{
+    background-color: aliceblue ;
+    margin: auto; /*auto, browser calculates margins */
+    width: 600px;
+    padding:10px;
+
+    box-shadow: 0 0 20px darkgray;
+}
+
