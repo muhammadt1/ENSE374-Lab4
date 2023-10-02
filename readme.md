@@ -6,3 +6,7 @@
     * **script.js**
     * **list.json**
 
+* References Include:
+    * **https://getbootstrap.com/docs/3.4/javascript/**
+    * **https://www.w3schools.com/js/js_intro.asp**
+    * **https://developer.mozilla.org/en-US/docs/Web/JavaScripts**
