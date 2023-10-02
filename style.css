@@ -11,7 +11,36 @@ body
     margin: auto; 
     width: 600px;
     padding:10px;
-
     box-shadow: 0 0 20px darkgray;
 }
 
+#task/*base (empty input)*/
+{
+    background-color: white ;
+    margin-bottom:5px;
+    border-radius: 5px;
+
+}
+.form-control /*before sorted*/
+{
+    text-align: left;
+    background-color: #E9ECEF;
+    margin-bottom:15px;
+    font-size: 20px;
+    border-radius: 5px;
+
+
+}
+
+
+.list-group-item /*after sorted*/
+{
+    text-align: left;
+    background-color: #E9ECEF;
+    margin-bottom:15px;
+    font-size: 20px;
+    border-radius: 5px;
+
+
+
+}
