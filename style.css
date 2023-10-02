@@ -1,19 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 body
 {    
-    margin: auto; /*auto, browser calculates margins */
-
-    
     text-align: center;
-    margin: 275px;
     font-family: 'Poppins';
 }
 
-
-.second
+.container-fluid
 {
-    background-color: aliceblue ;
-    margin: auto; /*auto, browser calculates margins */
+    background-color: aliceblue;
+    margin: auto; 
     width: 600px;
     padding:10px;
 

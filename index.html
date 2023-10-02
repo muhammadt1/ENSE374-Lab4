@@ -14,30 +14,26 @@
 </head>
 <body>
     
-
 <h1>Sort-a Easy Lab Assignment</h1>
 
 <br>
 
 <div class = "container-fluid">
-    <form>
-        <div class = "second">
-            <div class ="input-group mb-3">
-                <label for = "task5"></label>
-                <input type = "text" class="form-control border border-gray"  placeholder="Add a list element" class="form-control border border-gray" id = "task5" name = "task5"><br>                    
-                <button class="btn btn-outline-dark btn-m">Add</button><br>            
-
-            </div>
-            <button class="btn btn-outline-dark btn-m">Sort</button><br>            
-
-        </div>
-    </form>
+    <ul class = "list-group" id = "added"> </ul>
     
- 
+    <div class ="input-group mb-3">
+        <label for = "task"></label>
+        <input type = "text" class="form-control border border-gray" placeholder="Add a list element" id = "task" name = "task"><br>                    
+        <button type="submit" class="btn btn-outline-dark btn-m" onclick="makeList()">Add</button><br>            
+    
+    </div>
+   
+    <button type="submit" class="btn btn-outline-dark btn-m" onclick="sortList()">Sort</button><br>            
+
+      
+    
+    
 </div>
-
-
-
 
 
 
