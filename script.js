@@ -1,23 +1,24 @@
 var arr = [];
 var l;
 
-function makeList()
+//to add a task to the list
+function addItem()
 {
-    
     l = document.getElementById("added");
     let inp = document.getElementById("task").value;
     
     arr.push(inp);
-    l.innerHTML += '<div id="ent"><li class="list-group-item">' + inp + "</li> </div>";
-    
+    l.innerHTML += '<div id="ent"><li class="form-control border border-gray">' + inp + "</li> </div>";
 }
 
+
+//sorting the list
 function sortList()
 {
+    arr.sort(); //alphabetically or the first digit of a number
+    l.innerHTML = ""; //clearing content of the added id
     
-    arr.sort();
-    l.innerHTML = "";
-    
+    //displays new sorted order
     for( var i = 0; i < arr.length; i++)
     {
         l.innerHTML += '<div id="ent"><li class="list-group-item">' + arr[i] + "</li> </div>";
