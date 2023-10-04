@@ -5,7 +5,7 @@ var l;
 function addItem()
 {
     l = document.getElementById("added");
-    let inp = document.getElementById("task").value;
+    let inp = document.getElementById("task").value; //to retriev ACTIVE value
     
     arr.push(inp);
     l.innerHTML += '<div id="ent"><li class="form-control border border-gray">' + inp + "</li> </div>";
