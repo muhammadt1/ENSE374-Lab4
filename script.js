@@ -9,6 +9,8 @@ function addItem()
     
     arr.push(inp);
     l.innerHTML += '<div id="ent"><li class="form-control border border-gray">' + inp + "</li> </div>";
+    document.getElementById("task").value = ""; //clears
+
 }
 
 
